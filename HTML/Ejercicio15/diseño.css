@@ -1,0 +1,14 @@
+#clase{
+    font-size: xx-large;
+    font-family: fantasy;
+    color: brown;
+}
+
+#container{
+    background-color: blue;
+    height:1000px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

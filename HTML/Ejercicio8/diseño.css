@@ -1,0 +1,10 @@
+
+#container{
+    background-color: rgb(250, 101, 101);
+    height:1000px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body{background-color: brown;}

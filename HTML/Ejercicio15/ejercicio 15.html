@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--Centro de Biotecnologia agropecuaria 
+Analisis y Desarrollo de Software 
+Ficha:2470980
+Autor:David Santiago Buitrago Acuña 
+Fecha de creacion: 16 de febrero 2022 
+Fecha de actualizacion: 23 de febrero 2022-->
+<html lang="es">
+    <head>
+        <meta http-equiv="Content-Type"Content="text/html;charset=UTF-8"/>
+        <title>Informacion Sobre El Producto</title>
+        <link rel="icon" href="youtube.png">
+    </head>
+    <body>
+        <h3>Informacion Sobre El Producto</h3>
+        <from action="/php/insertar__subasta.php" method="post" enctype="multipart/form-data"/>
+    <fieldset>
+        <legend>Datos basicos</legend>
+        <label for="nombre">Nombre</label><br>
+        <input type="text"name="nombre" id="nombre" size="50" maxlength="250"/>
+        <br><br>
+        <label for="descripcion">Descripcion</label><br>
+        <textarea name="descripcion"  id="descripcion" aria-colspan="40" rows="5"></textarea>
+        <br><br>
+        foto<input type="file" name="foto">
+        <br><br>
+        <input name="contador"type="checkbox" value="si"/>Añadir contador de vistas
+    </fieldset>
+
+    <fieldset>
+        <legend>Datos Económicos</legend>
+        <label for="Precio">Precio</label>
+        <input type="text" size="5" id="precio" name="precio"/>&euro;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="impuestos">Impuestos</label>
+        <option value="4">4%</option>
+        <option value="7">7%</option>
+        <option value="16">16%</option>
+        <option value="25">25%</option>
+        </select>
+        <br><br>
+        <label type="radio" name="promocion" value="ninguno" checked="checked">Ninguno <br>
+        <label type="radio" name="promocion" value="portes">Transporte gratuito <br></label>
+        <label type="radio" name="promocion" value="descuento">Descuento 5%</label>
+
+    </fieldset>
+    </from>
+
+    <!--
+meta: Son etiquetas que funcionan para brindar información sobre el encabezado 
+title: En esta etiqueta podemos presentar, cambiar, asignar el titulo de nuestro sitio web.
+link: Esta etiqueta sirve para agregar informacion adicional de otros sitios de la web.
+head: Todo lo que tiene que ir en la parte superior (encabezado, titulos iconos, etc) se encuentra aqui.
+body: Representa el contenido de un documento. 
+h2: Se usa como un subtitulo.
+h3: Se usan para títulos de subsecciones, es decir subtítulos de un H2. 
+from: Representa un formulario. En este formulario se agregan los diferentes campos de entrada de datos o de confirmación
+fieldset: Esta etiqueta sirve para recopilar los elementos, crea un recuadro que rodea elementos de un formulario
+legend: Permite organizar en grupos los campos de un formulario
+label: Está puede ser asociada a un control de formulario, y que se supone, provee una descripción corta para éste.
+input: Esta se usa en formularios, basados en la web con el fin de recibir datos del usuario. Hay disponible una amplia variedad de tipos de datos de entrada
+br: produce un salto de línea en el texto.
+option: Insertar opciones en una lista de opciones. este tipo de control puede ser usado en formularios para recolectar preferencias de los visitantes.
+-->
+    </body>
+</html>

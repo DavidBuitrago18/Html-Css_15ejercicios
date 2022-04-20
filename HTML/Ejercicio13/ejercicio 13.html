@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Rellena tu CV</title>
+    <link rel="icon" href="chicharron.png">
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+    <div class="container">
+        <h3 id="titulo">Rellena tu CV</h3>
+    <from action="/php/insertar__cv.php" method="post" enctype="multipart/form-data">
+        Nombre <br/>
+        <input type="Text" name="Nombre" value="" size="20" maxlength="30"/>
+        <br/>
+        apellido <br/>
+        <input type="Text" name="Apellido" value="" size="50" maxlength="80"/>
+        <br/>
+        contraseña <br>
+        <input type="password" name="Contraseña" value="" size="10"/>
+        <br>
+        DNI <br/>
+        <input type="Text" name="DNI" value="" size="10" maxlength="9"/>
+        <br>
+        sexo<br>
+        <input type="radio" name="Sexo" value="Hombre" checked="checked"/>hombre<br/>
+        <input type="radio" name="Sexo" value="Mujer"/>mujer
+        <br/><br/>
+        incluir mi foto <input type="file"name="foto"/>
+
+        <br><br/>
+        <input name="suscribir" type="checkbox" value="suscribir" checked="checked"/>suscribirme al boletin de las novelas
+        <br><br>
+        <input type="submit" name="Enviar" value="Guardar cambios"/>
+        <input type="reset" name="Limpiar" value="borrar los datos introducidos"/>
+
+</from>
+</body>
+</html>

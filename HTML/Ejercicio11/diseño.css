@@ -1,0 +1,15 @@
+.titulo{
+    font-size: xx-large;
+    font-family: fantasy;
+    color: brown;
+}
+
+.container{
+    background-color: rgb(165, 145, 31);
+    height:500px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+body{background-color: rgb(83, 94, 187);}

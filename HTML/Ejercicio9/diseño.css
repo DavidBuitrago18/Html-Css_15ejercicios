@@ -1,0 +1,14 @@
+#container{
+    background-color: rgb(190, 248, 0);
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+body{background-color: black;}
+
+.titulo{
+    color: white;
+    font-size: xx-large;
+}

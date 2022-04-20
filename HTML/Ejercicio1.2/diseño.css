@@ -1,0 +1,32 @@
+#container{
+    width: 600px;
+    height: 156px;
+    background-color: rgb(253, 0, 211);
+    margin-left: auto;
+    margin-right: auto;
+}
+.clase{
+    color: black;
+    font-size:300%;
+    text-align: center;
+}
+
+#article{
+    width: 600px;
+    height: 70px;
+    background-color: blue;
+    text-align: center;
+    font-size: 300%;
+}
+#container2{
+    background-color: rgb(15, 141, 15);
+    width: 600px;
+    height: 170px;
+    
+}
+.clase3{
+    background-color: tomato;
+    font-size: 300%;
+    text-align: center;
+    height: 105px;
+}
